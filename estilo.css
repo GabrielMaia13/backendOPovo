@@ -1,0 +1,71 @@
+
+body, html {
+  height: 100%;
+  margin:0 auto;
+}
+#p1{
+
+  background-image: url('imgs/road_in_black_and_white-wallpaper-1920x1440.jpg');
+}
+#p2{
+
+  background-image: url('imgs/login.jpg');
+}
+.parallax {
+  /* The image used */
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  height: 100px;
+}
+.caption p{
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+  color: white;
+  letter-spacing: 25px;
+}
+.meio{
+	/*float: left;*/
+	background: black;
+	font-family: "Lato", sans-serif;
+	font-size: 18px/1.8;
+	 color: white;
+	padding:50px;
+	opacity: 1;
+}
+#caixas{
+	display: flex;
+	height: 100px;
+  line-height: 0px;
+	padding: 0px;
+}
+.first{
+  background-color: white;
+  color: black;
+}
+.box{
+	height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 100px;
+	display: inline-block;
+	margin: auto auto;
+
+}
+.devolv{
+  line-height: 30px;
+
+}

@@ -1,0 +1,200 @@
+body{
+background: url("../imgs/asd.jpg");
+  height: 100%;
+  width: 100%;	
+  margin:0 0;
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato",sans-serif;
+}
+/* Customize the label (the container) */
+.container {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+}
+
+/* Hide the browser's default checkbox */
+.container input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.parent2{
+	background-color: rgb(255, 102, 102);
+	width: 25%;
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+}
+.form{
+	margin: auto auto;
+	width: 60%;
+	height: 60%;
+	font-family: "Lato",sans-serif;
+	text-align: center;
+}
+.meio{
+	display: inline-block;
+}
+.meio input{
+	display: block;
+	width: 90%;
+}
+.form select{
+	width: 80%;
+	height: 30px;
+	display: block;
+	margin: 0 auto;
+}
+.form form{
+	padding-top: 5px;
+	width: 5;
+	color: white;
+	background-color: rgba(10,10,10,0.8);
+	margin: 0;
+	border-radius: 5px;	
+}
+.form input[type="text"]{
+    box-sizing: border-box;
+	display: block;
+	background: none;
+	border: none;
+	border-bottom: 2px solid black;
+	color:black;
+	background-color: white;
+	border-radius: 5px;
+	height: 30px;
+	width: 80%;
+	margin: 0 auto;
+}
+.form input[type="submit"]{
+	font-family: "Lato",sans-serif;
+	font-size: 25px;
+	letter-spacing: 3px;
+	width: 100%;
+	color:black;
+	border:none;
+	border-radius:0px;
+	border-top: 2px solid black;
+	background-color: white;
+	cursor: pointer;
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: black;
+  color: white;
+  font-size:50px;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+.modal-body img{
+	width: 70%;
+	height: 70%;
+}
+#tabela{
+	margin: 0 auto;
+	width: 60%;
+	text-align: left;
+border-collapse: collapse;
+
+}
+#tabela thead th{
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	text-align: center;
+
+}
+#tabela tbody th{
+border-right: 1px solid gray;
+border-bottom: 1px solid gray;
+width: 50%;
+}
+#tabela tbody td{
+border-left: 1px solid gray;
+border-bottom: 1px solid gray;
+}
+/* Modal Footer */
+.modal-footer {
+  /*padding: 2px 16px;*/
+  background-color: #5cb85c;
+  color: white;
+  height: 70px;
+}
+.modal-footer form{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+#btn{
+	width: 100%;
+	height: 100%;
+	background-color: inherit;
+	color: inherit;
+	border: none;
+	cursor: pointer;
+	font-size: 50px;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  font-size: 20px;
+  animation-duration: 0.4s
+}
